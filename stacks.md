@@ -40,9 +40,9 @@ print(even_stack())
 ```
 
 ## Challenge
-- Now it's your turn! Create a stack of all the odd numbers that weren't included in out last problem. 
+Now it's your turn! Create a stack of all the odd numbers that weren't included in out last problem. 
 
-[Click here to view the solution](stacks_solution.md)
+- [Click here to view the solution](stacks_solution.py)
 
 
 
