@@ -108,4 +108,5 @@ for x in reversed(tree):
 
 Now it's your turn! Using the same code, write a method that will return a true or false value as to whether or not our BST contains that requested value value. In other words, ask our program if it contains the value of 102 and if it does, have it return TRUE. if it doesn't have it return FALSE. Feel free to choose any number you'd like. Like always there will be a link that leads you to the solution.
 
-- [Click here to view the solution](trees_challenge.py)
+- [Click here to view the solution](trees_challenge.md)
+- [Click here to return to the first page](README.md)
