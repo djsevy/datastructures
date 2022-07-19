@@ -31,7 +31,7 @@ For this example I'll show you how to construct your linked list, add an item to
 ```python
 class Node:
 
-    # This class will be called anytime a new node is created.
+   
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -39,8 +39,7 @@ class Node:
 class LinkedList:
    
    
-    # this will initialize the linked list.
-    # It will also create a new node.
+    
     def __init__(self,value):
         new_node = Node(value)
         self.head = new_node
@@ -68,3 +67,7 @@ class LinkedList:
 
 
 ## Challenge
+Now that I've shown you how to add an to the linked list, it's your turn. The challenge is to write a method that will add an item to the beginning of the linked list. Below is a link to how I solved this problem, once you've completed the challenge, feel free to view the solution.
+
+- [Click here to view the solution](example.md)
+- [Click here to return to the first page](README.md)
