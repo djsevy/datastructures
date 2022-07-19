@@ -7,7 +7,8 @@ A binary tree is a data structure that organizes information using nodes. It is 
 
 In a binary search tree, nodes are organized by values that are lees than or greater than. Say that the tree beginning with the number 25 and you inserted a node with a value of 17 to the tree. That Node would be placed to the left of the 25. Again you add a node, this time with a value of 36. This node would  be placed to the right of the 25. Here is a picture to help illustrate this concept. In summary, smaller values will be placed to the left and larger values will be placed to the right.
 
-
+## Big O Notation
+When it comes to Big O, binary trees will typically use (log n) as it is able to cut the binary tree in half to complete it's search.
 
 ## Example
 In this example I'll show you how to create a Binary Search Tree, insert nodes into the tree, and how to traverse the tree forwards and backwards. In this example we will be using a few built in python methods and conditions. We will be using Yield, which allows us to create a generator that will return to us a value but not stop the loop completely. We will also be using __reversed__: this will initialize our going backwards method that that we will be able to iterate it backwards. 
