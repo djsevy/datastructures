@@ -1,3 +1,5 @@
+# Example and Solution
+
 class BST:
     
 
@@ -68,6 +70,17 @@ class BST:
             yield node.data
             yield from self._traverse_forward(node.left)
 
+
+    def contains(self, data):
+        node = self.root
+        while node is not None:
+            if data < node.data:
+                node = node.left
+            elif data > node.data:
+                node = node.right
+            else: 
+                return True
+        return False
   
 tree = BST()
 tree.insert(10)
@@ -88,6 +101,13 @@ print("\nTraversing a BST backwards")
 for x in reversed(tree):
     print(x)
 
+print()
+print('Using our contains method')
+print(7 in tree)
+print(19 in tree)
+print(655 in tree)
+print(9 in tree)
+print(4 in tree)
 
 
 
